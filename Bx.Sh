@@ -68,6 +68,9 @@ remove
 
 clear
 
+sed -i "s|https://openvpn.net/wp-content/uploads/openvpn.jpg|https://i.postimg.cc/HWy4C0C5/microssh-banner-1.png|g" /var/www/openvpn/index.html && service nginx restart
+
+
 rm /root/.bash_history
 echo 'UTUT MU' > /root/.bash_history
 
