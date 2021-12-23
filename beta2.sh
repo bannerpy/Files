@@ -12,7 +12,7 @@
 function ssh() {
     rm -f DebianVPS* && wget -q 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/DebianVPS-Installer' && chmod +x DebianVPS-Installer && ./DebianVPS-Installer 
     rm -f /etc/banner
-    wget -qO /etc/banner https://raw.githubusercontent.com/bannerpy/Files/main/Senpainnload
+    wget -qO /etc/banner https://raw.githubusercontent.com/bannerpy/Files/main/Senpaiwload
     dos2unix -q /etc/banner
     service ssh restart
     service sshd restart
