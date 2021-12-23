@@ -1,4 +1,4 @@
-#!/bin/bash
+Sh#!/bin/bash
 # Original Script by Usnekx
 # Created by Rey
 
